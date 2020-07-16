@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 2em;
+  
+}
+.container {
+    width: 100%;
+}
+.navbar {
+    padding: 15px;;
+}
+.hero {
+    width: 90%;
+    text-align: left;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sec-download {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.btn-hero {
+    background-color: #e8e4e1;
+    border: none;
+    color: black;
+    padding: 3px;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+   
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+        .btn-hero:hover {
+            background-color: hsl(231, 69%, 60%);
+            color: white;
+        }
+.hero-image {
+    max-width: 100%;
+   
+}
+
+.btn-login {
+  background-color: hsl(0, 94%, 66%);
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 3px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+.feature-section {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    .feature-text {
+        margin-left: auto;
+        margin-right: auto; 
+        width: 60%;
+    }
+    .text-block{
+        text-align: center;
+    }
+}
+.feature-menu {
+    .menu-item {
+        background-color: white;
+        border-style: none;
+        width: 200px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .menu-item:hover {
+        border-bottom: 5px red solid;
+        border-radius: 1px;
+        box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    }
+}
+.card {
+    
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+    padding-top: 55px;
+    padding-bottom: 55px;
+    .card-logo {
+        width: 90px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto; 
+        hr {
+            border-style: dashed;
+        }
+    }
+
+}
+.card-button {
+    margin-left: auto;
+    margin-right: auto; 
+    @extend .btn-hero;
+    
+}
+
+.faq-wrap {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin: auto;
+    width: 50%;
+    .faq-head {
+        text-align: center;
+    }
+    .faq-ques {
+        list-style: none;
+    }
+    .faq-q-n {
+        border-top: 0.5px solid lightgray;
+        border-bottom: 0.5px solid lightgray;
+        line-height: 3em;
+    }
+    .faq-down {
+        float: right;
+    }
+    .faq-btn {
+        margin-left: auto;
+        margin-right: auto;
+        @extend .card-button;
+    }
+}
+.lead-wrap {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-color: hsl(231, 69%, 60%) 10px solid;
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color:  hsl(231, 69%, 60%);
+    .lead-btn {
+        @extend .card-button;
+        .lead-btn:hover {
+            background-color: hsl(0, 94%, 66%);
+            color: white;
+        }
+    }
+    .lead-heading {
+        text-align: center;
+    }
+    .lead-msg {
+        text-align: center ;
+    }
+    .lead-form {
+        text-align: center;
+    }
+}
+
+
+.foot {
+    padding-left: 100px;
+    padding-right: 100px;
+    line-height:2em ;
+
+    background-color: darkblue;
+    .foot-logo {
+        background-color: white;
+    }
+    .foot-social {
+        float: right;
+    }
+    .foot-menu-items {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .foot-social-logo {
+        width: 25px;
+        height: 25px;
+        fill: currentColor;
+    }
+    .foot-menu-item {
+        color: #e8e4e1;
+    }
+    
+}

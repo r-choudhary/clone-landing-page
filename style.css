@@ -1,0 +1,206 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  line-height: 2em;
+}
+
+.container {
+  width: 100%;
+}
+
+.navbar {
+  padding: 15px;
+}
+
+.hero {
+  width: 90%;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.sec-download {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.btn-hero, .card-button, .faq-wrap .faq-btn, .lead-wrap .lead-btn {
+  background-color: #e8e4e1;
+  border: none;
+  color: black;
+  padding: 3px;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn-hero:hover, .card-button:hover, .faq-wrap .faq-btn:hover, .lead-wrap .lead-btn:hover {
+  background-color: #5368df;
+  color: white;
+}
+
+.hero-image {
+  max-width: 100%;
+}
+
+.btn-login {
+  background-color: #fa5757;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 3px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.feature-section {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.feature-section .feature-text {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.feature-section .text-block {
+  text-align: center;
+}
+
+.feature-menu .menu-item {
+  background-color: white;
+  border-style: none;
+  width: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.feature-menu .menu-item:hover {
+  border-bottom: 5px red solid;
+  border-radius: 1px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  text-align: center;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  padding-top: 55px;
+  padding-bottom: 55px;
+}
+
+.card .card-logo {
+  width: 90px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card .card-logo hr {
+  border-style: dashed;
+}
+
+.card-button, .faq-wrap .faq-btn, .lead-wrap .lead-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faq-wrap {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin: auto;
+  width: 50%;
+}
+
+.faq-wrap .faq-head {
+  text-align: center;
+}
+
+.faq-wrap .faq-ques {
+  list-style: none;
+}
+
+.faq-wrap .faq-q-n {
+  border-top: 0.5px solid lightgray;
+  border-bottom: 0.5px solid lightgray;
+  line-height: 3em;
+}
+
+.faq-wrap .faq-down {
+  float: right;
+}
+
+.faq-wrap .faq-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lead-wrap {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-color: #5368df 10px solid;
+  width: 100%;
+  height: 300px;
+  color: white;
+  background-color: #5368df;
+}
+
+.lead-wrap .lead-btn .lead-btn:hover {
+  background-color: #fa5757;
+  color: white;
+}
+
+.lead-wrap .lead-heading {
+  text-align: center;
+}
+
+.lead-wrap .lead-msg {
+  text-align: center;
+}
+
+.lead-wrap .lead-form {
+  text-align: center;
+}
+
+.foot {
+  padding-left: 100px;
+  padding-right: 100px;
+  line-height: 2em;
+  background-color: darkblue;
+}
+
+.foot .foot-logo {
+  background-color: white;
+}
+
+.foot .foot-social {
+  float: right;
+}
+
+.foot .foot-menu-items {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.foot .foot-social-logo {
+  width: 25px;
+  height: 25px;
+  fill: currentColor;
+}
+
+.foot .foot-menu-item {
+  color: #e8e4e1;
+}
+/*# sourceMappingURL=style.css.map */
